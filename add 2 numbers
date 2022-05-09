@@ -1,0 +1,24 @@
+<! DOCTYPE HTML>
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+
+<script type="text/javascript">
+    
+    
+var num1 = parseInt(prompt("Enter first number: "));
+var num2 = parseInt(prompt("Enter second number: "));
+ 
+// Add two numbers
+
+var sum = num1 + num2;
+
+alert("The sum of " + num1 + " and " + num2 + " is: " + sum);
+// Display output
+    
+</script>
+
+</body>
+</html>
