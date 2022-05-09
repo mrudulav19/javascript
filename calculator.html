@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <h2 style="color:white; font-family: Verdana;" ><u>addition</u> </h2>
+    <script >
+      function calculator() {
+        
+
+        var first = parseInt(prompt("Enter first number: "));
+var second = parseInt(prompt("Enter second number: "));
+        
+        var operator=prompt("Enter operator");
+        switch(operator)
+        {
+            case '+':result=(first+second);
+            break;
+            case '-':result=(first-second);
+            break;
+
+case '/':result=(first/second);
+            break;
+            
+            
+            case '*':result=(first*second);
+            break;
+        }
+        
+        alert(result);
+// Display output
+
+
+      }
+    </script>
+  </head>
+  <body style=background-color:green; >
+    
+   
+   
+    
+    <button onclick="calculator()">submit</button>
+ <p id="result"></p>
+  </body>
+</html>
